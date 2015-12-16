@@ -42,6 +42,23 @@ NOW HOW TO PUSH CHANGES WE MADE IN ALREADY EXISTING FILE
 now the changes that are in the local machine in brackets will go to online github account..
 FEW MORE COMMENTS
 git rm -rf fun.txt —> will remove that file from git
+<!-- NOW TO CREATE A REPO AND ADD A PROJECT FROM LOCAL COMPUTER-->
+1.NAVIGATE TO YOUR FOLDER
+EG: CD DESKTOP
+cd learningGit
+2.git init
+3.git status(to track the file changes)
+4.git add -A else git add filename
+5.git status(the filename in green color)
+6.git commit -m "my commit"
+7.git remote set-url origin (url copy from https)[already exsisting repository]
+8.git remote add origin (url copy from https) [this is to add file to a new repository created by clicking + on top of the page]
+9.git push origin master
+10.now the files get added to the repository
+
+
+
+
 
 
 
